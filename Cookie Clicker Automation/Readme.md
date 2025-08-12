@@ -17,18 +17,6 @@ Make sure you have:
     pip install selenium webdriver-manager
 ```
   
-## 📦 Installation & Usage
-1. Clone this repository:
-```
-    bash
-    git clone https://github.com/USERNAME/cookie-clicker-bot.git
-    cd cookie-clicker-bot
-```
-2. Run the script:
-```
-    bash
-    python main.py
-```
 ## 🛠 Features
 - Automatic clicking on the main cookie
 - Checks current cookies count
