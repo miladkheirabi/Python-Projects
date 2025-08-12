@@ -25,7 +25,6 @@ python main.py
 
 ## 📸 Example
 ```
-"""
     __  ___       __             
    / / / (_)___ _/ /_  ___  _____
   / /_/ / / __ `/ __ \/ _ \/ ___/
@@ -35,16 +34,14 @@ python main.py
   / /   / __ \ | /| / / _ \/ ___/
  / /___/ /_/ / |/ |/ /  __/ /    
 /_____/\____/|__/|__/\___/_/     
-"""  
 
 compare A: Cristiano Ronaldo, a footballer, from Portugal.  
-"""
  _    __    
 | |  / /____
 | | / / ___/
 | |/ (__  ) 
 |___/____(_)
-"""
+
 against B: Ariana Grande, a singer, from USA.  
 
 who has more followers? Type 'A' or 'B': A  
