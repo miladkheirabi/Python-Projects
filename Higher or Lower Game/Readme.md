@@ -4,7 +4,7 @@ A simple command-line game where the player guesses which of two celebrities has
 If the guess is correct, the score increases and the game continues with a new comparison.
 
 ## 📂 Project Structure
-higher_or_lower/  
+Higher or Lower Game/  
 │  
 ├── main.py                # Main game loop  
 ├── higher_or_lower_logo.py # ASCII art for game title and VS graphic  
@@ -49,7 +49,7 @@ against B: Ariana Grande, a singer, from USA.
 
 who has more followers? Type 'A' or 'B': A  
 you're right! Current score: 1  
-
+```
 ## 📚 Learning Goals
 This project is great for:  
 - Practicing loops and conditionals in Python  
