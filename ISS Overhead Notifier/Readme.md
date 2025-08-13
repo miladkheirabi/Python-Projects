@@ -2,13 +2,6 @@
 
 A small script that checks the real-time location of the International Space Station (ISS) and sends you an alert when it’s near your location at night.
 
-## 📂 Project Structure
-iss_notifier/
-│
-├── main.py        # The script (requests + sunrise/sunset + SMTP)
-├── .env           # Environment variables (email, app password, coords) — not committed
-└── README.md      # This file
-
 ## 🚀 Features
 - Pulls ISS position from Open Notify API.
 - Checks night-time using Sunrise–Sunset API (UTC).
