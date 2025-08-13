@@ -21,7 +21,6 @@ Requirements:
 
 Files:
 - main.py (your code)
-- tomato.png (not needed here)
 - .env (create it yourself; see below)
 
 ## 🔐 Security (DO THIS!)
@@ -35,22 +34,15 @@ Never hardcode secrets (email, app password, exact home coordinates) in code or 
 
 2) Load them in code with python-dotenv (optional but recommended), or read from os.environ.
 
-3) Add .env to .gitignore so it won’t be pushed:
-   - .env
-
-4) If you already committed secrets, rotate them immediately:
-   - Revoke/replace your Gmail App Password.
-   - Force-push removal doesn’t guarantee secrecy; assume it’s leaked.
-
 Tips:
 - Use Gmail “App Passwords” (2FA required) rather than your real password.
 - For public demos, obfuscate location (round coordinates or use a nearby city).
 
 ## ▶️ Run
-From the project directory:
-- pip install requests
-- python main.py
-
+```
+pip install requests
+python main.py
+```
 ## 🧭 Configuration Notes
 - Sunrise/Sunset API returns times in UTC. Ensure your comparison uses UTC consistently.
 - The “nearby” check in the sample (lat 30–40, lon 46–56) is a crude window; replace with a ±delta around your own coords for better accuracy.
