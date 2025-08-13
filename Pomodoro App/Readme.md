@@ -22,7 +22,7 @@ Clone the repository and run:
 python main.py  
 
 ## 📸 Example
-![image info](./capture.png)
+![image info](./Capture.PNG)
 
 1. Click **Start** to begin a work session.  
 2. Timer counts down from 25 minutes.  
