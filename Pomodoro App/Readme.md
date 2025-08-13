@@ -22,7 +22,7 @@ Clone the repository and run:
 python main.py  
 
 ## 📸 Example
-Pomodoro Timer UI Screenshot Here
+![image info](./capture.png)
 
 1. Click **Start** to begin a work session.  
 2. Timer counts down from 25 minutes.  
